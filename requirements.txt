@@ -1,5 +1,5 @@
-flask
-flask-compress
-torch
-transformers
-huggingface-hub
+flask 1.1.2
+flask-compress 1.5.0
+torch 2.0.0
+transformers 4.27.4
+huggingface-hub 0.14.1

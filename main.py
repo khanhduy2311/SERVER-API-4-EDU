@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 from flask_compress import Compress
 from qa_model import qa
-#from test_api import test
 
 app = Flask(__name__)
 Compress(app)
@@ -28,4 +27,3 @@ def ask():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    #test()
